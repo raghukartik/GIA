@@ -8,5 +8,6 @@ Router.route('/category/:categoryId/subcategories').get(restaurantController.get
 Router.route('/category/:categoryId/items').get(restaurantController.getCategoryItems);
 Router.route('/subcategory/:subcategoryId/items').get(restaurantController.getSubcategoryItems);
 Router.route('/items/:itemId/item-price').get(restaurantController.getItemsPrice);
+Router.route('/search').get(restaurantController.searchItems);
 
 export default Router;
