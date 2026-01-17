@@ -1,7 +1,6 @@
 import express from "express";
 import dotenv from 'dotenv';
 import restaurantRouter from "./routes/restaurantRouter.js";
-import pool from "./models/db.js";
 import bodyParser from "body-parser";
 
 dotenv.config();
